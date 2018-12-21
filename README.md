@@ -85,6 +85,7 @@ If everything goes wright we can access jenkins on `http://localhost:8080`.
 Post installation we must create an admin user and setup a password.
 
 References:
+
   https://jenkins.io/doc/book/installing/
 
   https://issues.jenkins-ci.org/browse/JENKINS-40689
