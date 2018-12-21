@@ -79,18 +79,24 @@ sudo apt-get install jenkins
 
 If everything goes wright we can access jenkins on `http://localhost:8080`.
 
-![IMG](images/first_login.jpg)
+![IMG](images/first_login.jpeg)
 
 
 Post installation we must create an admin user and setup a password.
 
 References:
-
   https://jenkins.io/doc/book/installing/
+
   https://issues.jenkins-ci.org/browse/JENKINS-40689
+
   https://wiki.jenkins.io/display/JENKINS/How-to+articles
+
   https://jenkins.io/doc/administration/requirements/java/
+
   https://dzone.com/articles/installing-openjdk-11-on-ubuntu-1804-for-real
+
   https://linux.die.net/man/8/update-alternatives
+
   https://askubuntu.com/questions/315646/update-java-alternatives-vs-update-alternatives-config-java
+
   https://stackoverflow.com/questions/12787757/how-to-use-the-command-update-alternatives-config-java
