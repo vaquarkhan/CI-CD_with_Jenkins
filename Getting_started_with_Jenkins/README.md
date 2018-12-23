@@ -4,7 +4,7 @@
   - Why do we need it?
   - Different phases of adopting Continuous Integration
 
-![IMG](https://github.com/mpruna/CI-CD_with_Jenkins/tree/master/images/what_is_ci.png)
+![IMG](https://github.com/mpruna/CI-CD_with_Jenkins/blob/master/images/what_is_ci.png)
 
 We need to understand continuous integration before we start playing with Jenkins.
 Integration is the development practice that requires developers to integrate code into a shared repository several times a day each check and then verified by an automated build teams to detect problems early.
