@@ -26,7 +26,7 @@ There are no `build servers` at all for the team. The application is built manua
 The source code is stored in a central repository but is not enforced. The developers need to commit their changes on a regular basis. What happens is that before release a developer or Release Manager would mentally integrate the changes during this stage the code changes made by all developers were brought together and forged into a product. This will result in months of conflict changes resolution and potentially would cause release delays.
 
 Stag 2.
-![IMG](https://github.com/mpruna/CI-CD_with_Jenkins/blob/master/images/c1_stage2.png)
+![IMG](https://github.com/mpruna/CI-CD_with_Jenkins/blob/master/images/ci_stage2.png)
 
 The team has a built server and automated builds are scheduled on a regular basis typically nightly basis.
 This build script would compile the application and runs a set of automated tests. Developers now commit the changes regularly, usually at the end of every day. If a developers commits conflict with another developers work. The build server would alert the team members.
