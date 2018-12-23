@@ -31,7 +31,7 @@ Stage 2.
 The team has a built server and automated builds are scheduled on a regular basis typically nightly basis.
 This build script would compile the application and runs a set of automated tests. Developers now commit the changes regularly, usually at the end of every day. If a developers commits conflict with another developers work. The build server would alert the team members.
 
-Stage 3
-![IMG]https://github.com/mpruna/CI-CD_with_Jenkins/blob/master/images/ci_stage3.png)
+Stage 3.
+![IMG](https://github.com/mpruna/CI-CD_with_Jenkins/blob/master/images/ci_stage3.png)
 
 The build server would alert the team members stage 3 The team is now starting to take continuous integration and automated testing to a further step. The server is configured to start a build whenever new code is committed to the central repository.The boot process usually involves compiling the application and runs a set of automated unit or integration tests. The boot server alerts team members immediately if a bill fails. Broken bills are usually treated as a high priority issue and is fixed quickly.
