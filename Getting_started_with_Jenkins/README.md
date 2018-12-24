@@ -34,7 +34,7 @@ This build script would compile the application and runs a set of automated test
 Stage 3.
 ![IMG](https://github.com/mpruna/CI-CD_with_Jenkins/blob/master/images/ci_stage3.png)
 
-The build server would alert the team members stage 3 The team is now starting to take continuous integration and automated testing to a further step. The server is configured to start a build whenever new code is committed to the central repository.The boot process usually involves compiling the application and runs a set of automated unit or integration tests. The boot server alerts team members immediately if a bill fails. Broken bills are usually treated as a high priority issue and is fixed quickly.
+The build server would alert the team members stage 3 The team is now starting to take continuous integration and automated testing to a further step. The server is configured to start a build whenever new code is committed to the central repository.The build process usually involves compiling the application and runs a set of automated unit or integration tests. The build server alerts team members immediately if a bill fails. Broken builds are usually treated as a high priority issue and is fixed quickly.
 
 Stage 4.
 ![IMG](https://github.com/mpruna/CI-CD_with_Jenkins/blob/master/images/ci_stage4.png)
