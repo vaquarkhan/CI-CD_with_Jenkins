@@ -109,4 +109,16 @@ languages.
 2010.
   - Renamed to Jenkins in 2011.
   
+### Jenkins installation
+
+Jenkins it's an application writen in java. At the current time the latest version supported in java 8.
+Before we install jenkins we must install `java 8` available at this [link](https://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html).
+Click accept on the `Accept License Agreement` thick box, download and install.
+
+Now install Jenkins. Jenkins installation is available [here](https://jenkins.io/download/), for `Linux`, `Windows` and `Mac`.
+After the installation we will have a login prompt, and we have to define the administration for this setup.
+
+![IMG](https://github.com/mpruna/CI-CD_with_Jenkins/blob/master/images/1st_login.png)
+
+  
   
