@@ -167,6 +167,7 @@ $ echo $PATH
 ### Jenkins architecture
 
 ![IMG](https://github.com/mpruna/CI-CD_with_Jenkins/blob/master/images/master_slave.png)
+
 Jenkins uses a master and slave architecture to manage distributed builds. A masters job is to handle/schedule build jobs.
 A slave is a small Java program that listens for requests from the Jenkins master.
 The job of the slaves is to do as they are told, which is mainly executing build jobs dispatched by the master.
@@ -184,3 +185,27 @@ Slave:
   - Execute build jobs dispatched by
 the master
 
+### Jenkins key terms
+
+Term | Description
+-|-
+Job / Project | Those two terms are used interchangeably. They all refer
+to runnable tasks that are controlled / monitored by Jenkins.
+
+Slave / Node:
+ - Slaves are computers that are set up to build projects for a master.
+ - Jenkins runs a separate program called "slave agent" on slaves.
+ - When slaves are registered to a master, a master starts distributing loads to slaves.
+ - Node is used to refer to all machines that are part of Jenkins grid, slaves and master.
+ 
+ Executor:
+  - Executor is a separate stream of builds to be run on a node in
+parallel.
+  - A Node can have one or more executors
+  
+ Build:
+  - A build is a result of one of the projects
+  
+ Plugin:
+  - A Plugin, like plugins on any other system, is a piece of software
+that extends the core functionality of the core Jenkins server  
