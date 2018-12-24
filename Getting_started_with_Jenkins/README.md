@@ -163,3 +163,24 @@ Verify new settings:
 $ echo $JAVA_HOME
 
 $ echo $PATH
+
+### Jenkins architecture
+
+![IMG](https://github.com/mpruna/CI-CD_with_Jenkins/blob/master/images/master_slave.png)
+Jenkins uses a master and slave architecture to manage distributed builds. A masters job is to handle/schedule build jobs.
+A slave is a small Java program that listens for requests from the Jenkins master.
+The job of the slaves is to do as they are told, which is mainly executing build jobs dispatched by the master.
+
+Master:
+
+  - Schedule build jobs.
+  - Dispatch builds to the slaves for the
+actual job execution.
+  - Monitor the slaves and record the
+build results.
+  -  Can also execute build jobs directly.
+
+Slave:
+  - Execute build jobs dispatched by
+the master
+
