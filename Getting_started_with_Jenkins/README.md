@@ -50,3 +50,31 @@ Stage 5.
 ![IMG](https://github.com/mpruna/CI-CD_with_Jenkins/blob/master/images/ci_stage5.png)
 
 After successful integration and acceptance tests using automated coding techniques the code is pushed into production.
+
+
+### Difference between Continuous Integration, Continuous Delivery and Continuous Deployment
+
+Terms | Description
+-|-
+Continuous Integration | The practice of merging development work with the main branch
+constantly so that the cold is tested as often as possible to catch issues early.
+Continuous Delivery | Continual delivery of code to an environment once the code is ready to
+ship. This could be staging or production. The idea is the product is
+delivered to a user base, which can be QAs or customers for review and
+inspection.  Unit tests during continuous integration cannot catch all the bugs in business logic particularly design issues.
+Continuous Deployment | The deployment or release of code to production as soon as it is ready. continues deployment requires continuous integration and continuous delivery.
+
+### Implementing Continuous integration
+
+![IMG](https://github.com/mpruna/CI-CD_with_Jenkins/blob/master/images/ci_tools.png)
+
+There are several ways to implement `CI`. We can either user `Jenkins` or `Circle CI`.[Circle CI](https://github.com/mpruna/Getting_Started_with_CircleCI) is a cloud based `CI` solution.
+
+Continuous Integration requires a shift in the development work flow. A business adopting `CI` must:
+
+  - Fixing broken builds should be treated as a high priority issue for all team
+members.
+  - The deployment process should be automated, with no manual steps involved.
+  - All team members should focus on contributing to high-quality tests because the
+confidentiality of the CI process highly depends on the quality of the tests.
+  - Each of these steps requires improvements in the practices and engineering culture of continuous integration
