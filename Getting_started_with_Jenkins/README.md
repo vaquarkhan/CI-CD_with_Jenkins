@@ -64,8 +64,8 @@ Continuous Deployment | The deployment or release of code to production as soon 
 
 ![IMG](https://github.com/mpruna/CI-CD_with_Jenkins/blob/master/images/ci_tools.png)
 
-There are several ways to implement `CI`. We can either user Jenkins or Circle CI.[Circle CI](https://github.com/mpruna/Getting_Started_with_CircleCI) is a cloud based `CI` solution.
 
+There are several ways to implement `CI`. We can either user Jenkins or Circle CI. [Circle CI](https://github.com/mpruna/Getting_Started_with_CircleCI) is a cloud based `CI` solution.
 Continuous Integration requires a shift in the development work flow. A business adopting `CI` must:
 
   - Fixing broken builds should be treated as a high priority issue for all team
