@@ -76,3 +76,37 @@ members.
   - All team members should focus on contributing to high-quality tests because the
 confidentiality of the CI process highly depends on the quality of the tests.
   - Each of these steps requires improvements in the practices and engineering culture of continuous integration
+
+
+### What is Jenkins
+
+   - Jenkins is a continuous integration and build server.
+   - It is used to manually, periodically, or automatically build software
+development projects.
+   - It is an open source Continuous Integration tool written in Java.
+   - Jenkins is used by teams of all different sizes, for projects with various
+languages.
+
+### Why Jenkins is popular
+  - Easy to use
+  - Great extensibility:
+    – Support different version control systems
+    – Code quality metrics
+    – Build notifiers
+    – UI customization
+ 
+ Jenkins is easy to integrate with a lot of [plug-ins](https://plugins.jenkins.io/)
+ such as virtual control systems, code quality metrics, build notifiers, UI customization.
+ 
+ ### Jenkins history
+ 
+ ![IMG](https://github.com/mpruna/CI-CD_with_Jenkins/blob/master/images/jenkins_history.png)
+  - Jenkins was originally developed as the Hudson project 
+  - Hudson was started in 2004 at Sun by Kohsuke Kawaguchi as a hobby project.
+  - First release in 2005.
+  - Kohsuke worked on Hudson full time in early 2008.
+  - Became the leading Continuous Integration solution with a market share of over 70% in
+2010.
+  - Renamed to Jenkins in 2011.
+  
+  
