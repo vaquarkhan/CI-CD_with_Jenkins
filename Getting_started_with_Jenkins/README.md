@@ -45,3 +45,8 @@ Gradually the `CI` process gathers useful information about our code base. We wi
   - Do we have fewer and fewer failures?
 
 This helps teams keep the quality bar of the code base high. We will be notified if good testing practices are slipping.
+
+Stage 5.
+![IMG](https://github.com/mpruna/CI-CD_with_Jenkins/blob/master/images/ci_stage5.png)
+
+After successful integration and acceptance tests using automated coding techniques the code is pushed into production.
