@@ -120,5 +120,46 @@ After the installation we will have a login prompt, and we have to define the ad
 
 ![IMG](https://github.com/mpruna/CI-CD_with_Jenkins/blob/master/images/1st_login.png)
 
-  
-  
+Text Direction: Install Java
+Section 1, Lecture 9
+Configure Java_Home on Windows:
+
+    Right click My Computer and select Properties.
+    On the Advanced tab, select Environment Variables, and then edit JAVA_HOME to point to where the JDK software is located, for example, C:\Program Files\Java\jdk1.6.0_02
+
+Configure Java_Home on Linux:
+
+    Login to your account and open the startup script file which is usually ~/.bash_profile  file (or can be .bashrc depending on your envrionment settings)
+
+$ vi ~/.bash_profile
+
+In the startup script, set JAVA_HOME  and PATH 
+
+C shell:
+
+    setenv JAVA_HOME jdk-install-dir
+    setenv PATH $JAVA_HOME/bin:$PATH
+    export PATH=$JAVA_HOME/bin:$PATH
+
+jdk-install-dir  is the JDK installation director, which should be something similar to /usr/java/jdk1.5.0_07/bin/java
+
+Bourne shell:
+
+    JAVA_HOME=jdk-install-dir
+    export JAVA_HOME
+    PATH=$JAVA_HOME/bin:$PATH
+    export PATH
+
+Korn and bash shells:
+
+    export JAVA_HOME=jdk-install-dir
+    export PATH=$JAVA_HOME/bin:$PATH
+
+Type the following command to activate the new path settings immediately:
+
+$ source ~/.bash_profile 
+
+Verify new settings:
+$ echo $JAVA_HOME
+
+$ echo $PATH
