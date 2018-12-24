@@ -56,19 +56,16 @@ After successful integration and acceptance tests using automated coding techniq
 
 Terms | Description
 -|-
-Continuous Integration | The practice of merging development work with the main branch
-constantly so that the cold is tested as often as possible to catch issues early.
+Continuous Integration | The practice of merging development work with the main branch constantly so that the cold is tested as often as possible to catch issues early.
 Continuous Delivery | Continual delivery of code to an environment once the code is ready to
-ship. This could be staging or production. The idea is the product is
-delivered to a user base, which can be QAs or customers for review and
-inspection.  Unit tests during continuous integration cannot catch all the bugs in business logic particularly design issues.
-Continuous Deployment | The deployment or release of code to production as soon as it is ready. continues deployment requires continuous integration and continuous delivery.
+ship, this could be staging or production ,the idea is the product is delivered to a user base, which can be `QAs` or customers for review and inspection.  Unit tests during continuous integration cannot catch all the bugs in business logic particularly design issues.
+Continuous Deployment | The deployment or release of code to production as soon as it is ready, continuous deployment requires continuous integration and continuous delivery.
 
 ### Implementing Continuous integration
 
 ![IMG](https://github.com/mpruna/CI-CD_with_Jenkins/blob/master/images/ci_tools.png)
 
-There are several ways to implement `CI`. We can either user `Jenkins` or `Circle CI`.[Circle CI](https://github.com/mpruna/Getting_Started_with_CircleCI) is a cloud based `CI` solution.
+There are several ways to implement `CI`. We can either user Jenkins or Circle CI.[Circle CI](https://github.com/mpruna/Getting_Started_with_CircleCI) is a cloud based `CI` solution.
 
 Continuous Integration requires a shift in the development work flow. A business adopting `CI` must:
 
