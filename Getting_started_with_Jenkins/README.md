@@ -37,7 +37,7 @@ Stage 3.
 The build server would alert the team members stage 3 The team is now starting to take continuous integration and automated testing to a further step. The server is configured to start a build whenever new code is committed to the central repository.The boot process usually involves compiling the application and runs a set of automated unit or integration tests. The boot server alerts team members immediately if a bill fails. Broken bills are usually treated as a high priority issue and is fixed quickly.
 
 Stage 4.
-![IMG](https://github.com/mpruna/CI-CD_with_Jenkins/blob/master/images/ci_stage3/ci_stage4.png)
+![IMG](https://github.com/mpruna/CI-CD_with_Jenkins/blob/master/images/ci_stage4.png)
 
 Stage 4 automated code quality and code coverage metrics are now run along with unit tests to continuously evaluate the code quality.
 Gradually the `CI` process gathers useful information about our code base. We will be able to answer questions such as:
