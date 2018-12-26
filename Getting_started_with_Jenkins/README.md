@@ -76,3 +76,26 @@ members.
   - All team members should focus on contributing to high-quality tests because the
 confidentiality of the CI process highly depends on the quality of the tests.
   - Each of these steps requires improvements in the practices and engineering culture of continuous integration
+
+
+### Jenkins Dashboards and Menus
+
+![IMG](https://github.com/mpruna/CI-CD_with_Jenkins/blob/master/images/jenkins_dahsboard.png)
+
+ - Main section on the page is the jobs page, but since this is a new installation there will be no listed jobs.
+ - New Iterm helps us to create a job/project
+ - People manages user/roles rights
+ - Build history. Shows a history of the builds on this node. It shows builds that where executed on the master node as well as the slaves
+ - My views is where we can setup View filters so setup private view for group of users with different rights.
+ - Credentials responsible for managing the global Jenkins credentials
+ - Build queue shows build status
+ - Build Executor section displays the current build executors on this Jenkins instance
+ - Manage Jenkins. Within this section we manage this Jenkins instance:
+ 
+ ![IMG](ttps://github.com/mpruna/CI-CD_with_Jenkins/blob/master/images/manage_jenkins.png)
+ 
+ - Configure System setups global config such as path to Maven and Java 
+ - Configure Global Security, this item comfigures who can edit and view Jenkins through this Web Console
+ - Manage Plugins can add, remove, disable or enable plugins that can extend the functionality of Jenkins.
+ - System Information/System logs useful for troubleshooting
+ 
