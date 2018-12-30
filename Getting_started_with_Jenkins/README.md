@@ -127,14 +127,14 @@ Jenkins supports CVS and SVN out of box. For the first job we will use the defau
 
 ### Build triggers
 
-![IMG](https://github.com/mpruna/CI-CD_with_Jenkins/blob/master/images/build_job.png)
+![IMG](https://github.com/mpruna/CI-CD_with_Jenkins/blob/master/images/build_triggers.png)
 
 We can define multiple triggers for this job. If we don't specify any triggers, the job can only be triggered manually. 
 In our first job, we will trigger this job manually.
 
 ### Build Job
 
-![IMG](https://github.com/mpruna/CI-CD_with_Jenkins/blob/master/images/build_job.png))
+![IMG](https://github.com/mpruna/CI-CD_with_Jenkins/blob/master/images/build_job.png)
 
 Builds steps are the basic building blocks for the Jenkins free style builds process.
 Builds steps tell Jenkins exactly, how we want our build project. We can define as many steps as we want within a job.
