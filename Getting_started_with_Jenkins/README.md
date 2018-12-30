@@ -92,10 +92,55 @@ confidentiality of the CI process highly depends on the quality of the tests.
  - Build Executor section displays the current build executors on this Jenkins instance
  - Manage Jenkins. Within this section we manage this Jenkins instance:
  
- ![IMG](ttps://github.com/mpruna/CI-CD_with_Jenkins/blob/master/images/manage_jenkins.png)
+ ![IMG](https://github.com/mpruna/CI-CD_with_Jenkins/blob/master/images/manage_jenkins.png)
  
  - Configure System setups global config such as path to Maven and Java 
  - Configure Global Security, this item comfigures who can edit and view Jenkins through this Web Console
  - Manage Plugins can add, remove, disable or enable plugins that can extend the functionality of Jenkins.
  - System Information/System logs useful for troubleshooting
- 
+
+
+### Jenkins first job
+
+Click `Create new Job`, give the project a name,and bare in mind that this will be used for the project `build url`, so try to avoid `spaces`.
+Jenkins is really versatile, can be used to perform lots of different build jobs such as continuous
+integration, nightly builds, perform some repetitive batch tasks, etc.
+Freestyle build jobs are general-purpose build jobs, which provides a maximum of flexibility so that you can tailor it to your needs.
+Add a project description. The project description will go on the project home page. It provides an overview of the build job's goals and context. 
+
+![IMG](https://github.com/mpruna/CI-CD_with_Jenkins/blob/master/images/first_build_job.png)
+
+We can disable old builds. Build jobs can consume a lot of disk space, especially if you store the build artifacts.
+Even without artifacts, keeping a record of every build job consumes additional disk space and memory.
+The `Discard Old Builds` option lets you limit the number of builds you record in the build history.
+You can either tell Jenkins to only keep recent builds or to keep no more than a specified number of builds.
+You also have the option to disable the build. A disabled build will not be executed until you enable it again.
+Using this option when you create a new build job is quite rare. But this option is very handy if you want to temporarily suspend a build during
+maintenance work or major refactoring.
+
+### Source Control Management section
+
+![IMG](https://github.com/mpruna/CI-CD_with_Jenkins/blob/master/images/source_control_management.png)
+
+Defines the source of the code which will be built by our job.
+Jenkins supports CVS and SVN out of box. For the first job we will use the defaults.
+
+### Build triggers
+
+![IMG](https://github.com/mpruna/CI-CD_with_Jenkins/blob/master/images/build_job.png)
+
+We can define multiple triggers for this job. If we don't specify any triggers, the job can only be triggered manually. 
+In our first job, we will trigger this job manually.
+
+### Build Job
+
+![IMG](https://github.com/mpruna/CI-CD_with_Jenkins/blob/master/images/build_job.png))
+
+Builds steps are the basic building blocks for the Jenkins free style builds process.
+Builds steps tell Jenkins exactly, how we want our build project. We can define as many steps as we want within a job.
+Here we click add build step. Then we select execute shell. 
+
+
+### First Job on landing page
+
+![IMG](https://github.com/mpruna/CI-CD_with_Jenkins/blob/master/images/first_job_landing_page.png)
