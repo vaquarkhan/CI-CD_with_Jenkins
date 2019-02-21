@@ -83,6 +83,22 @@ If everything goes wright we can access jenkins on `http://localhost:8080`.
 
 
 Post installation we must create an admin user and setup a password.
+If by any chance we forget the admin password we can recover it by:
+
+* stopping jenkins
+* disabling security
+* start jenkins
+* setup a new pass and enable security
+
+[Reference here](https://stackoverflow.com/questions/39340322/how-to-reset-the-use-password-of-jenkins-on-windows)
+
+```buildoutcfg
+    Stop the Jenkins service
+    Open the config.xml with a text editor (i.e notepad++), maybe be in C:\jenkins\config.xml (could backup it also).
+    Find this <useSecurity>true</useSecurity> and change it to <useSecurity>false</useSecurity>
+    Start Jenkins service
+
+```  
 
 References:
 
