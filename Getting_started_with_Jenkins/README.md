@@ -213,7 +213,7 @@ that extends the core functionality of the core Jenkins server
 =======
 ### Jenkins Dashboards and Menus
 
-![IMG](https://github.com/mpruna/CI-CD_with_Jenkins/blob/master/images/jenkins_dahsboard.png)
+![IMG](https://github.com/mpruna/CI-CD_with_Jenkins/blob/master/images/jenkins_dashboard.png)
 
  - Main section on the page is the jobs page, but since this is a new installation there will be no listed jobs.
  - New Iterm helps us to create a job/project
