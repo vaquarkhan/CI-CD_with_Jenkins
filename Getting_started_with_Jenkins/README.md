@@ -23,8 +23,7 @@ Stage 1.
 ![IMG](https://github.com/mpruna/CI-CD_with_Jenkins/blob/master/images/ci_stage1.png)
 
 There are no `build servers` at all for the team. The application is built manually on a developer's machine.
-The source code is stored in a central repository but is not enforced. The developers need to commit their changes on a regular basis. What happens is that before release a developer or Release Manager would mentally integrate the changes during this stage the code changes made by all developers were brought together and forged into a product. This will result in months of conflict changes resolution and potentially would cause release delays.
-
+The source code is stored in a central repository but is not enforced. The developers need to commit their changes on a regular basis. What happens is that before release a developer or Release Manager would manually integrate the changes during this stage the code changes made by all developers were brought together and forged into a product. This will result in months of conflict changes resolution and potentially would cause release delays.
 Stage 2.
 ![IMG](https://github.com/mpruna/CI-CD_with_Jenkins/blob/master/images/ci_stage2.png)
 
@@ -78,7 +77,6 @@ confidentiality of the CI process highly depends on the quality of the tests.
   - Each of these steps requires improvements in the practices and engineering culture of continuous integration
 
 
-<<<<<<< HEAD
 ### What is Jenkins
 
    - Jenkins is a continuous integration and build server.
@@ -277,4 +275,3 @@ Here we click add build step. Then we select execute shell.
 ### First Job on landing page
 
 ![IMG](https://github.com/mpruna/CI-CD_with_Jenkins/blob/master/images/first_job_landing_page.png)
->>>>>>> 63f49995226ec7fe5a4bdcd7b1cb80478b0a02a5
