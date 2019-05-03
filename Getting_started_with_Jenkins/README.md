@@ -308,6 +308,8 @@ OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
 
 ### Maven pom.xml file
 
+POM stands for "Project Object Model". A project contains configuration files, as well as the developers involved and the roles they play, the defect tracking system, the organization and licenses, the URL of where the project lives, the project's dependencies, and all of the other little pieces that come into play to give code life.
+
 * Describe the software project being built, including
     * The dependencies on other external modules.
     * The directory structures.
@@ -333,3 +335,6 @@ References:
   
  https://softwareengineering.stackexchange.com/questions/106473/what-does-artifact-mean#106474
   
+ https://maven.apache.org/pom.html
+ 
+ 
