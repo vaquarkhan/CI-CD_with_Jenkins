@@ -326,8 +326,7 @@ package | Take the compiled code and package it in its distributable format.
 verify | Run any checks on results of integration tests to ensure quality criteria are met.
 install | Install the package into the local repository, for use as a dependency in other
 projects locally.
-deploy | Copy the final package to the remote repository for sharing with other
-developers and projects.
+deploy | Copy the final package to the remote repository for sharing with other developers and projects.
 
 References:
 
