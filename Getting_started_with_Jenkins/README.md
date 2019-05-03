@@ -275,3 +275,40 @@ Here we click add build step. Then we select execute shell.
 ### First Job on landing page
 
 ![IMG](https://github.com/mpruna/CI-CD_with_Jenkins/blob/master/images/first_job_landing_page.png)
+
+
+### Setting up a Maven based jenkins job
+
+We need to install the github plug-in. We do this by activating the plug-in in the **manage Jenkins/manage plug-in** section and select the github plug in.
+
+Setting-up a Maven based jobs consists of:
+* check out source code from Github
+* compile the code
+* run the tests
+* package the application
+
+[Windows instalation](https://dev-pages.info/how-to-install-maven-on-windows-10/)
+
+In [Maven](https://maven.apache.org/guides/introduction/introduction-to-repositories.html) terminology there are two types of repositories local and remote.
+Maven repository keeps your project's all dependencies (library jars, plugin jars etc.). When you run a Maven build, then Maven automatically downloads all the dependency jars into the local repository.
+An artifact is one of many kinds of tangible by-products produced during the development of software. Some artifacts help describe the function, architecture, and design of software. 
+
+### Verify installation:
+
+```
+mvn -v
+c:\
+Picked up _JAVA_OPTIONS: -Djava.net.preferIPv4Stack=true
+Apache Maven 3.6.1 (d66c9c0b3152b2e69ee9bac180bb8fcc8e6af555; 2019-04-04T22:00:29+03:00)
+Maven home: C:\apache-maven-3.6.1\bin\..
+Java version: 1.8.0_201, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jre1.8.0_201
+Default locale: en_US, platform encoding: Cp1250
+OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+```
+
+References:
+
+ https://en.wikipedia.org/wiki/Artifact_(software_development)
+  
+ https://softwareengineering.stackexchange.com/questions/106473/what-does-artifact-mean#106474
+  

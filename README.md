@@ -97,8 +97,10 @@ If by any chance we forget the admin password we can recover it by:
     Open the config.xml with a text editor (i.e notepad++), maybe be in C:\jenkins\config.xml (could backup it also).
     Find this <useSecurity>true</useSecurity> and change it to <useSecurity>false</useSecurity>
     Start Jenkins service
-
 ```  
+
+
+
 
 References:
 
@@ -117,3 +119,6 @@ References:
   https://askubuntu.com/questions/315646/update-java-alternatives-vs-update-alternatives-config-java
 
   https://stackoverflow.com/questions/12787757/how-to-use-the-command-update-alternatives-config-java
+ 
+ 
+  
