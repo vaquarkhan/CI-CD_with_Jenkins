@@ -306,6 +306,29 @@ Default locale: en_US, platform encoding: Cp1250
 OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
 ```
 
+### Maven pom.xml file
+
+* Describe the software project being built, including
+    * The dependencies on other external modules.
+    * The directory structures.
+    * The required plugins.
+    * The predefined targets for performing certain tasks such as
+compilation and packaging.
+
+### Different Phases in Maven Build Lifecycle
+
+Phase | Description 
+---|---
+validate | Validate the project is correct and all necessary information is available.
+compile | Compile the source code of the project.
+test | Test the compiled source code using a suitable unit testing framework.
+package | Take the compiled code and package it in its distributable format.
+verify | Run any checks on results of integration tests to ensure quality criteria are met.
+install | Install the package into the local repository, for use as a dependency in other
+projects locally.
+deploy | Copy the final package to the remote repository for sharing with other
+developers and projects.
+
 References:
 
  https://en.wikipedia.org/wiki/Artifact_(software_development)
