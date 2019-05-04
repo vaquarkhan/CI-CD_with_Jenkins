@@ -320,7 +320,7 @@ compilation and packaging.
 Maven project creation:
 
 1. Click **new item**
-2. Name the project (**maven-project)
+2. Name the project (**maven-project**)
 3. Select **Freestyle project**:
 
     a. Give a description
