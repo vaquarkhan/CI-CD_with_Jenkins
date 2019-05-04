@@ -340,6 +340,37 @@ test before executing package.
 * We only need to call the last build phase to be executed.    
 
 
+### Maven project execution
+
+Clicking **Build Now** will invoke the project execution. Execution steps can be seen in the console log.
+The build steps will be executed sequentially.
+
+1. Project workspace is created, then checkout source code from **Github**
+
+![IMG](../images/workspace_gitfetch.png)
+
+2. Build order determined
+
+![IMG](../images/build_steps.png)
+
+3. For root directory a cleanup is done to remove artifacts from previous projects
+
+![IMG](../images/remove_artifacts.png)
+
+4. For server module execute **clean/compile/test/test results**
+
+![IMG](../images/build_maven.png)
+![IMG](../images/server_testres.png)
+
+5. Build *.jar file for server component
+
+![IMG](../images/jarfile.png)
+
+6. Same goes for **webapp**
+
+7. Final **Build Status**
+
+![IMG](../images/build_status.png)
 
 
 ### Different Phases in Maven Build Lifecycle
