@@ -317,6 +317,31 @@ POM stands for "Project Object Model". A project contains configuration files, a
     * The predefined targets for performing certain tasks such as
 compilation and packaging.
 
+Maven project creation:
+
+1. Click **new item**
+2. Name the project (**maven-project)
+3. Select **Freestyle project**:
+
+    a. Give a description
+    
+    b. Under **Source Code Management** check git and supply the [repository URL](https://github.com/jleetutorial/maven-project)
+    
+    c. Branch specifier leave it at master
+    
+    d. Create a **Maven target** under build steps and **clean package** under Goals
+    
+Maven Build Phases
+* These lifecycle phases are executed sequentially to complete the default
+lifecycle.
+* We want to specify the maven package command, this command would
+execute each default life cycle phase in order including validate, compile,
+test before executing package.
+* We only need to call the last build phase to be executed.    
+
+
+
+
 ### Different Phases in Maven Build Lifecycle
 
 Phase | Description 
