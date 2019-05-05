@@ -385,6 +385,11 @@ verify | Run any checks on results of integration tests to ensure quality criter
 install | Install the package into the local repository, for use as a dependency in other projects locally.
 deploy | Copy the final package to the remote repository for sharing with other developers and projects.
 
+
+Jar files in Java. A JAR (Java Archive) is a package file format typically used to aggregate many Java class files and associated metadata and resources (text, images, etc.) into one file to distribute application software or libraries on the Java platform.
+
+In software engineering, a WAR file (Web Application Resource or Web application ARchive) is a file used to distribute a collection of JAR-files, JavaServer Pages, Java Servlets, Java classes, XML files, tag libraries, static web pages (HTML and related files) and other resources that together constitute a web.
+
 References:
 
  https://en.wikipedia.org/wiki/Artifact_(software_development)
@@ -392,5 +397,8 @@ References:
  https://softwareengineering.stackexchange.com/questions/106473/what-does-artifact-mean#106474
   
  https://maven.apache.org/pom.html
+ 
+ https://en.wikipedia.org/wiki/WAR_(file_format)
+ 
  
  
