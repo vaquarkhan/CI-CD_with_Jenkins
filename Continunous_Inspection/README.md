@@ -33,6 +33,15 @@ Checkstyle is a development tool to help programmers write Java code that adhere
 * The practices of class construction;
 * Multiple complexity measurements.
 
+To specify the checkstyle code analysis we just need to add the **checkstyle:checkstyle** option on the **build goals**
+![IMG](../images/build_goals.png)
+
+Following the build we see an code analysis:
+
+![IMS](../images/checkstyle_warn.png)
+
+
+
 
 Ref:
 *   https://www.quora.com/How-do-you-define-code-quality
