@@ -40,8 +40,25 @@ Following the build we see an code analysis:
 
 ![IMS](../images/checkstyle_warn.png)
 
+After fixing the errors we commit the changes to github, this would trigger a build:
 
+```buildoutcfg
+git add server/src/main/java/com/example/Greeter.java
+git add server/src/main/java/com/example/package-info.java
+git commit -m "fix checklist warnings"
+[master 6a4e364] fix checklist warnings
+ 2 files changed, 10 insertions(+), 2 deletions(-)
+ create mode 100644 server/src/main/java/com/example/package-info.java
+git push origin master
+```
 
+We see one last warning, seems that in the package-info.java we are missing a new line:
+
+![IMG](../images/missing_nl.png)
+
+After we fix all the checklist warnings
+
+![IMG](../images/fixed_warn.png)
 
 Ref:
 *   https://www.quora.com/How-do-you-define-code-quality
