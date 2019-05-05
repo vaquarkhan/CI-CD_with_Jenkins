@@ -19,6 +19,20 @@ Good code has:
 **Code Coverage** refers to the amount of code covered by a particular test.
 A program with high test coverage, measured as a percentage, has had more of its source code executed during testing, which suggests it has a lower chance of containing undetected software bugs compared to a program with low test coverage.
 
+Jenkins has integrated plugins to help analyze the code.
+[CheckStyle](https://checkstyle.org/) is one of these plugins.
+Checkstyle is a development tool to help programmers write Java code that adheres to a coding standard. It automates the process of checking Java code to spare humans of this boring (but important) task. This makes it ideal for projects that want to enforce a coding standard
+
+* Javadoc comments for classes, attributes and methods;
+* Naming conventions of attributes and methods;
+* The number of function parameters;
+* Line lengths;
+* The presence of mandatory headers;
+* The use of imports, and scope modifiers;
+* The spaces between some characters;
+* The practices of class construction;
+* Multiple complexity measurements.
+
 
 Ref:
 *   https://www.quora.com/How-do-you-define-code-quality
