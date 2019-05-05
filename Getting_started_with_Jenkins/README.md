@@ -390,6 +390,30 @@ Jar files in Java. A JAR (Java Archive) is a package file format typically used 
 
 In software engineering, a WAR file (Web Application Resource or Web application ARchive) is a file used to distribute a collection of JAR-files, JavaServer Pages, Java Servlets, Java classes, XML files, tag libraries, static web pages (HTML and related files) and other resources that together constitute a web.
 
+### Setting up a GIT trigger
+
+Jenkins can also be used to trigger a build job when something new is committed to a central repository.
+We need to specify this in the build triggers: **POLL SCM**
+Scheduling is done based on **cron** format
+
+In Cron, each line consists of 5 fields separated by TAB or whitespace.
+
+![IMG](../images/cron_schedule.png)
+
+### Cron Syntax
+To specify multiple values for one field:
+
+ (*) all valid values
+ 
+ M-N a range of values
+
+ A,B,Z enumerates multiple values
+
+
+SSH Key must be generated for Jenkins access
+
+
+
 References:
 
  https://en.wikipedia.org/wiki/Artifact_(software_development)
