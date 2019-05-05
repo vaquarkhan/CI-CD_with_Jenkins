@@ -410,8 +410,48 @@ To specify multiple values for one field:
  A,B,Z enumerates multiple values
 
 
-SSH Key must be generated for Jenkins access
+[SSH Key](https://help.github.com/en/enterprise/2.16/user/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) must be generated for Jenkins access
 
+To simulate this scenario we fork the original repository. This is the out clone repo:
+
+https://github.com/mpruna/maven-project
+
+
+Generate an empty commit and a push:
+
+```buildoutcfg
+$ git commit --allow-empty
+[master b4d8c0b] Allow empty commit to Trigger Jenkins
+$ git push
+Enumerating objects: 1, done.
+Counting objects: 100% (1/1), done.
+Writing objects: 100% (1/1), 207 bytes | 207.00 KiB/s, done.
+Total 1 (delta 0), reused 0 (delta 0)
+To https://github.com/mpruna/maven-project.git
+   66ec4ca..b4d8c0b  master -> master
+```
+
+Jenkins build trigger based on commit:
+
+```buildoutcfg
+Polling Log
+View as plain text
+
+This page captures the polling log that triggered this build.
+
+Started on May 5, 2019 3:04:00 PM
+Using strategy: Default
+using credential 525669c2-ff76-4835-915a-f0ed07537c0c
+ > git.exe --version # timeout=10
+using GIT_SSH to set credentials Jenkins Git ssh key
+ > git.exe ls-remote -h https://github.com/mpruna/maven-project.git # timeout=10
+Found 5 remote heads on https://github.com/mpruna/maven-project.git
+[poll] Latest remote head revision on refs/heads/master is: b4d8c0b7f38f714c511b6c7f404ef99c161563eb
+Done. Took 3.4 sec
+Changes found
+```
+
+ 
 
 
 References:
