@@ -60,6 +60,8 @@ After we fix all the checklist warnings
 
 ![IMG](../images/fixed_warn.png)
 
+Jenkins supports as well other build scripts such as **Ant/Gradle/shell scripts**
+
 Ref:
 *   https://www.quora.com/How-do-you-define-code-quality
 *   https://en.wikipedia.org/wiki/Code_coverage
