@@ -17,4 +17,5 @@ It can be hard to follow along these steps. We can use a build pipeline plug in 
 The most inportant step is to define the initial build step.
 
 ![IMG](../images/pipeline_initial_job.png)
+![IMG](../images/run_build.png)
 
