@@ -22,6 +22,7 @@ The most inportant step is to define the initial build step.
 
 To optimise the build pipeline we might execute some jobs in parallel to improve time.
 In our case we can remove the checkstyle from the initial build step and set it up as a independent build.
+In the **package** build step ce can setup as post build the **static analysis** build step
 
 ![IMG](../images/parellel_pipeline.png) 
 ![IMG](../images/parellel_pipeline_exec.png)
