@@ -19,3 +19,11 @@ The most inportant step is to define the initial build step.
 ![IMG](../images/pipeline_initial_job.png)
 ![IMG](../images/run_build.png)
 
+
+To optimise the build pipeline we might execute some jobs in parallel to improve time.
+In our case we can remove the checkstyle from the initial build step and set it up as a independent build.
+
+![IMG](../images/parellel_pipeline.png) 
+![IMG](../images/parellel_pipeline_exec.png)
+
+
