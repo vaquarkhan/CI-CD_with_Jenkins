@@ -28,3 +28,28 @@ In the **package** build step ce can setup as post build the **static analysis**
 ![IMG](../images/parellel_pipeline_exec.png)
 
 
+In another real world scenario the application would be deployed to production.
+We will copy the existing tomcat installation and create a deployment instance:
+
+```buildoutcfg
+05/08/2019  03:03 PM           113,663 apache-tomcat-8.5.40-deploy
+04/10/2019  03:33 PM    <DIR>          apache-tomcat-8.5.40-stage
+```
+
+We must change the client port so it won't overlap with the existing installation
+
+```buildoutcfg
+<Connector port="9494" protocol="HTTP/1.1"
+               connectionTimeout="20000"
+               redirectPort="8443" />
+```
+
+The deploy job will copy the artifacts from package job once this is completed successfully.
+The deploy job depends on the staging job but as trigger we will select manual.
+
+![IMG](../images/deploy_to_prod.png)
+
+
+Run the pipeline
+
+![IMG](../images/run_pipeline.png)
