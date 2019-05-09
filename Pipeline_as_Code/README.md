@@ -31,8 +31,17 @@ pipeline {
 }
 ``` 
 
-Add another stage
+Add another stage deploy to slanging platform. We just need to add another stage step:
 
+```buildoutcfg
+stage ('Deploy To Staging'){
+            steps {
+                build job: 'Deploy-to-staging'
+            }
+        }
+```
+
+![IMG](../images/deploy_to_stage.png)
 
 
 
