@@ -8,7 +8,9 @@ Example below contains a pipeline with 3 stages
 ```buildoutcfg
 pipeline {
     agent any
-
+    tools {maven 'localMAVEN'
+        jdk 'localJDK'
+        }
     stages {
         stage('Build') {
             steps {
@@ -28,6 +30,11 @@ pipeline {
     }
 }
 ``` 
+
+Add another stage
+
+
+
 
 ### Benefits of a code-based pipeline
 
