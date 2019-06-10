@@ -62,6 +62,17 @@ After we fix all the checklist warnings
 
 Jenkins supports as well other build scripts such as **Ant/Gradle/shell scripts**
 
+### Todos setup 2 tomcat instances
+
+Ref:
+
+* https://stackoverflow.com/questions/16110528/tomcat-multiple-instances-simultaneously
+
+### Jekins plugins
+
+* https://www.level-up.one/6-of-my-favorite-jenkins-plugins/
+
+
 Ref:
 *   https://www.quora.com/How-do-you-define-code-quality
 *   https://en.wikipedia.org/wiki/Code_coverage
