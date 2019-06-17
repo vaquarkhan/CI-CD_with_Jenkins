@@ -121,4 +121,7 @@ References:
   https://stackoverflow.com/questions/12787757/how-to-use-the-command-update-alternatives-config-java
  
  
-  
+  -------------
+  ### Step by step pipline 
+  - https://dzone.com/articles/learn-how-to-setup-a-cicd-pipeline-from-scratch
+  - https://techbeacon.com/app-dev-testing/beginners-guide-kick-starting-your-ci-pipeline-jenkins
