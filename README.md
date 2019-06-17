@@ -125,3 +125,8 @@ References:
   ### Step by step pipline 
   - https://dzone.com/articles/learn-how-to-setup-a-cicd-pipeline-from-scratch
   - https://techbeacon.com/app-dev-testing/beginners-guide-kick-starting-your-ci-pipeline-jenkins
+  
+  --------
+  
+  - https://jenkins.io/doc/pipeline/steps/
+  - https://github.com/linuxacademy/cicd-pipeline-train-schedule-pipelines
